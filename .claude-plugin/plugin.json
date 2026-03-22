@@ -1,0 +1,10 @@
+{
+  "name": "business-os",
+  "version": "0.2.0",
+  "description": "Business OS for ingeniOS — task management, marketing, outreach, research, CRM, daily planning",
+  "author": {
+    "name": "Flo Windolf"
+  },
+  "keywords": ["tasks", "backlog", "planning", "epics", "gtm", "engineering", "crm", "outreach", "marketing", "handwerk", "ingenios"],
+  "hooks": "./hooks/hooks.json"
+}

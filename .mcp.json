@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "backlog": {
+      "command": "backlog",
+      "args": ["mcp", "start"],
+      "cwd": "../ops"
+    }
+  }
+}

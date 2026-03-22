@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'SESSION DEBRIEF REMINDER — Before ending this session, check the Session Debrief section in CLAUDE.md: 1) Update task statuses 2) Create learning subtasks under parent tasks 3) Note process improvements as ops tasks 4) Flag follow-ups. Only act on this if the session involved substantive work and is wrapping up.'",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'CONTEXT COMPACTION — Run Session Debrief NOW: 1) Update task statuses 2) Create learning subtasks 3) Note improvements as ops tasks 4) Flag follow-ups'",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
