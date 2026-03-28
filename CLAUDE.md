@@ -44,7 +44,7 @@ Each skill lives in `skills/<name>/SKILL.md` — that file IS the skill definiti
 |-------|---------|-------|--------|
 | manage-tasks | task CRUD requests | backlog | backlog |
 | daily-ceo-planning | morning planning | backlog, email | backlog |
-| email-to-tasks | inbox scan | email | backlog |
+| email-to-tasks | inbox scan + agent prep | email, backlog, web | backlog |
 | user-research | research a user/problem | web | backlog/docs |
 | outreach-research | find prospects | web | crm.yml |
 | outreach-campaign | run outreach | crm.yml | email, crm.yml |
